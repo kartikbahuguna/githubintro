@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="6.449">
+    <testcase classname="Test CRUD methods in Sample Employee REST API testing" name="Add Employee record" time="3.737">
+        <system-out><![CDATA[Given I set POST employee service api endpoint as https://reqres.in/........passed
+And I create a request and enter Kartik and Engineer........................passed
+When I pass the request and /api/users......................................passed
+Then I check the reponse by 201.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test CRUD methods in Sample Employee REST API testing" name="UPDATE Employee record" time="0.9">
+        <system-out><![CDATA[Given I set PUT employee service api endpoint as https://reqres.in/.........passed
+And I create a put request and enter updated Somesh and Software Engineer...passed
+When I pass the put request and /api/users/2................................passed
+Then I check the put response by 200........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test CRUD methods in Sample Employee REST API testing" name="GET Employee record" time="0.735">
+        <system-out><![CDATA[Given I set GET employee service api endpoints as https://reqres.in/........passed
+When I create a get request and pass the /api/users/2.......................passed
+Then I check the get response by 200........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Test CRUD methods in Sample Employee REST API testing" name="DELETE Employee record" time="0.774">
+        <system-out><![CDATA[Given I set DELETE employee service api endpoint as https://reqres.in/......passed
+When I create DELETE HTTP request and pass the /api/users/2.................passed
+Then I check the DELETE response by 204.....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
