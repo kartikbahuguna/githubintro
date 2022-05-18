@@ -13,7 +13,7 @@ import io.cucumber.java.en.When;
 
 public class DataTableSteps {
 
-	WebDriver driver;
+	WebDriver driver; //modified//
 	String projectpath = System.getProperty("user.dir");
 	@Given("^User is on Login Page$")
 	public void user_is_on_login_page() {
